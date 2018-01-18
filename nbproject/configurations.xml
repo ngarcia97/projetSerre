@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>BulletinMeteo.h</itemPath>
+      <itemPath>ClientMeteo.h</itemPath>
+      <itemPath>InfoClimat.h</itemPath>
+      <itemPath>Observable.h</itemPath>
+      <itemPath>Observateur.h</itemPath>
+      <itemPath>Serre.h</itemPath>
+      <itemPath>Superviseur.h</itemPath>
+      <itemPath>VueMeteo.h</itemPath>
+      <itemPath>VuePrincipale.h</itemPath>
+      <itemPath>VueSerre.h</itemPath>
+      <itemPath>climatSerre.h</itemPath>
+      <itemPath>maquetteIHM.h</itemPath>
+      <itemPath>pageGlobale.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>climatSerre.ui</itemPath>
+      <itemPath>maquetteIHM.ui</itemPath>
+      <itemPath>pageGlobale.ui</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>BulletinMeteo.cpp</itemPath>
+      <itemPath>ClientMeteo.cpp</itemPath>
+      <itemPath>InfoClimat.cpp</itemPath>
+      <itemPath>Observable.cpp</itemPath>
+      <itemPath>Observateur.cpp</itemPath>
+      <itemPath>Serre.cpp</itemPath>
+      <itemPath>Superviseur.cpp</itemPath>
+      <itemPath>VueMeteo.cpp</itemPath>
+      <itemPath>VuePrincipale.cpp</itemPath>
+      <itemPath>VueSerre.cpp</itemPath>
+      <itemPath>climatSerre.cpp.cc</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>maquetteIHM.cpp.cc</itemPath>
+      <itemPath>pageGlobale.cpp.cc</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+      </compileType>
+      <item path="BulletinMeteo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BulletinMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ClientMeteo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClientMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="InfoClimat.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="InfoClimat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Observable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Observable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Observateur.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Observateur.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serre.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Serre.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Superviseur.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Superviseur.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VueMeteo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VueMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VuePrincipale.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VuePrincipale.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VueSerre.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VueSerre.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="climatSerre.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="climatSerre.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="climatSerre.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="maquetteIHM.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="maquetteIHM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="maquetteIHM.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pageGlobale.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pageGlobale.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pageGlobale.ui" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <buildMode>1</buildMode>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="BulletinMeteo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BulletinMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ClientMeteo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClientMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="InfoClimat.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="InfoClimat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Observable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Observable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Observateur.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Observateur.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serre.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Serre.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Superviseur.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Superviseur.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VueMeteo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VueMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VuePrincipale.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VuePrincipale.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VueSerre.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VueSerre.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="climatSerre.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="climatSerre.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="climatSerre.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="maquetteIHM.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="maquetteIHM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="maquetteIHM.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pageGlobale.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pageGlobale.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pageGlobale.ui" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
